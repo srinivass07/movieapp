@@ -1,16 +1,144 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Movie App built using React and Vite that allows users to browse, search, and explore movies with a fast and responsive user interface.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://movieapp-mocha-phi.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search movies instantly
+- 🎞️ Browse trending and popular movies
+- ⚡ Fast performance using Vite
+- 📱 Fully responsive design
+- 🎨 Clean and modern UI
+- ⚛️ Built with React functional components
+- 🔄 Hot reload for fast development
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📁 Project Structure
+
+```
+movieapp/
+│
+├── public/          # Static files
+├── src/             # Main source code
+│   ├── components/  # React components
+│   ├── App.jsx      # Main App component
+│   ├── main.jsx     # Entry point
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run locally:
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/srinivass07/movieapp.git
+```
+
+### 2. Go to project folder
+
+```
+cd movieapp
+```
+
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 4. Run the project
+
+```
+npm run dev
+```
+
+App will run on:
+```
+http://localhost:5173/
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed using Vercel.
+
+To deploy:
+
+```
+npm run build
+```
+
+Then upload the build folder to Vercel.
+
+---
+
+```
+
+---
+
+## 🎯 Purpose of Project
+
+This project was built to:
+
+- Practice React development
+- Learn modern frontend tools
+- Build real-world portfolio project
+- Improve UI and frontend skills
+
+---
+
+## 👨‍💻 Author
+
+**Srinivas S**
+
+- GitHub: https://github.com/srinivass07
+- Email: srinivasvivek02@gmail.com
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 🔮 Future Improvements
+
+- Add movie details page
+- Add favorites feature
+- Add authentication
+- Add backend integration
+- Improve UI animations
+
+---
+
